@@ -1,8 +1,5 @@
 import base64
 import streamlit as st
-import plotly.express as px
-
-df = px.data.iris()
 
 @st.experimental_memo
 def get_img_as_base64(file):
