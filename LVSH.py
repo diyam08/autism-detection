@@ -62,7 +62,7 @@ st.markdown("### Please answer the following 40 questions by selecting how frequ
 
 total_score = 0
 
-input("I. SOCIAL RELATIONSHIP AND RECIPROCITY")
+st.header("I. SOCIAL RELATIONSHIP AND RECIPROCITY")
 
 for i, q in enumerate(question1, start=1):
     response = st.radio(
@@ -71,7 +71,7 @@ for i, q in enumerate(question1, start=1):
         key=f"q{i}"
     )
 
-input("II. EMOTIONAL RESPONSIVENESS")
+st.header("II. EMOTIONAL RESPONSIVENESS")
 
 for i, q in enumerate(question2, start=1):
     response = st.radio(
@@ -80,7 +80,7 @@ for i, q in enumerate(question2, start=1):
         key=f"q{i}"
     )
 
-input("III. SPEECH-LANGUAGE AND COMMUNICATION")
+st.header("III. SPEECH-LANGUAGE AND COMMUNICATION")
 
 for i, q in enumerate(question3, start=1):
     response = st.radio(
@@ -89,7 +89,7 @@ for i, q in enumerate(question3, start=1):
         key=f"q{i}"
     )
 
-input("IV. BEHAVIOUR PATTERNS")
+st.header("IV. BEHAVIOUR PATTERNS")
 
 for i, q in enumerate(question4, start=1):
     response = st.radio(
@@ -98,7 +98,7 @@ for i, q in enumerate(question4, start=1):
         key=f"q{i}"
     )
 
-input("V. SENSORY ASPECTS")
+st.header("V. SENSORY ASPECTS")
 
 for i, q in enumerate(question5, start=1):
     response = st.radio(
@@ -106,8 +106,8 @@ for i, q in enumerate(question5, start=1):
         list(options.keys()),
         key=f"q{i}"
     )
-  
-input("VI. COGNITIVE COMPONENT")
+
+st.header("VI. COGNITIVE COMPONENT")
 
 for i, q in enumerate(question6, start=1):
     response = st.radio(
